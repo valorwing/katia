@@ -10,4 +10,9 @@ export class AppController {
   redirect() {
     return;
   }
+
+  @Get('/v1')
+  resp() {
+    return 'OK';
+  }
 }
