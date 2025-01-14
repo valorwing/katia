@@ -16,6 +16,7 @@ import { join } from 'path';
         index: false,
         fallthrough: false,
       },
+      exclude: ['/v1'],
     }),
   ],
   controllers: [AppController],
