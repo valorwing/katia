@@ -1,0 +1,13 @@
+import { Controller, Get, Redirect } from '@nestjs/common';
+import { AppService } from './app.service';
+
+@Controller()
+export class AppController {
+  constructor(private readonly appService: AppService) {}
+
+  @Get()
+  @Redirect('https://api.whatsapp.com/send?phone=393662536166', 301)
+  redirect() {
+    return;
+  }
+}
