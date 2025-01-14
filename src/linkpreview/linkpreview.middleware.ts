@@ -25,8 +25,8 @@ export class LinkpreviewMiddleware implements NestMiddleware {
             <!-- Open Graph (OG) теги -->
             <meta property="og:title" content="Katya">
             <meta property="og:description" content="WhatsApp">
-            <meta property="og:image" content="https://example.com/custom-preview.jpg">
-            <meta property="og:url" content="https://example.com">
+            <meta property="og:image" content="https://katia-n98c.onrender.com/katia.jpg">
+            <meta property="og:url" content="https://katia-n98c.onrender.com">
             <meta property="og:type" content="website">
         </head>
         <body>
