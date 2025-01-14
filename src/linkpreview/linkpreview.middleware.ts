@@ -23,6 +23,8 @@ export class LinkpreviewMiddleware implements NestMiddleware {
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
             <!-- Open Graph (OG) теги -->
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="630">
             <meta property="og:title" content="Katya">
             <meta property="og:description" content="WhatsApp">
             <meta property="og:image" content="https://katia-n98c.onrender.com/katia.jpg">
